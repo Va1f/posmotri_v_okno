@@ -107,7 +107,10 @@ ol {
   gap: 6px;
   width: 200px;
   overflow: hidden;
-  line-height: 100%;
+}
+
+.content__video-card-description {
+  line-height: 90%;
 }
 
 .search-form__fieldset-title {
@@ -268,7 +271,6 @@ ol {
   border: none;
   border-block-start: 1px solid #fff;
   border-block-end: 1px solid #fff;
-  outline: none;
   color: rgba(255, 255, 255, 0.7);
   font-family: inherit;
   font-size: inherit;
